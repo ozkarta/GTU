@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document [
+	<!ELEMENT document (v:store,g:store,s:store)>
+	<!ATTLIST document xmlns:v CDATA "varketili">
+	<!ATTLIST document xmlns:g CDATA "gldani">
+	<!ATTLIST document xmlns:s CDATA "saburtalo">
+	
+	<!ELEMENT v:store (office_inventory)>
+	<!ELEMENT office_inventory (pens,notebook)>
+	<!ELEMENT pens	(pen+)>
+	<!ELEMENT pen (color,quantity)>
+	<!ELEMENT color (#PCDATA)>
+	<!ELEMENT quantity (#PCDATA)>
+	<!ELEMENT notebook (#PCDATA)>
+
+	
+	<!ELEMENT g:store (books)>
+	
+	<!ELEMENT books (reading|educational)>
+	<!ELEMENT reading (book)>
+	<!ELEMENT book (name,author,quantity,category?)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	
+	<!ELEMENT educational (book)>
+	<!ELEMENT category (#PCDATA)>
+	
+	<!ELEMENT s:store (books)>
+	
+]>
+<document
+	xmlns:v="varketili"
+	xmlns:g="gldani"
+	xmlns:s="saburtalo">
+
+
+	<v:store>
+		<office_inventory>
+			<pens>
+				<pen>
+					<color>Red</color>
+					<quantity>5</quantity>
+				</pen>
+				<pen>
+					<color>black</color>
+					<quantity>7</quantity>
+				</pen>
+				<pen>
+					<color>blue</color>
+					<quantity>20</quantity>
+				</pen>
+			</pens>
+			<notebook>
+
+			</notebook>
+
+
+		</office_inventory>
+	</v:store>
+
+	<g:store>
+		<books>
+			<reading>
+				<book>
+					<name>Pain Killer</name>
+					<author>Ronnie James Dio</author>
+					<quantity>26</quantity>
+				</book>
+			</reading>
+		</books>
+	</g:store>
+
+	<s:store>
+		<books>
+			<educational>
+				<book>					
+					<name>Rescue Patient</name>
+					<author>O .  Kartvelishvili</author>
+					<quantity>1</quantity>
+					<category>Medical</category>
+				</book>
+			</educational>
+		</books>
+	</s:store>
+
+
+</document>
