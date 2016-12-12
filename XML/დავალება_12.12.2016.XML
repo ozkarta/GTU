@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book[
+	<!ELEMENT book (a:title,b:price)>
+	<!ATTLIST book xmlns:b CDATA #FIXED "www.interneti.ge/lessona">
+	<!ATTLIST book xmlns:a CDATA #FIXED "www.interneti.ge/xmli">
+	<!ELEMENT a:title (#PCDATA)>
+	<!ELEMENT b:price (#PCDATA)>
+]>
+
+<book
+	xmlns:b="www.interneti.ge/lessona"
+	xmlns:a="www.interneti.ge/xmli"
+	>
+
+	<a:title>
+		Ozkart
+	</a:title>
+
+	<b:price>
+		20
+	</b:price>
+
+</book>
