@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="sellAuto_list">
+		<xs:complexType>
+			<xs:sequence>
+							
+				<xs:element name="ავტომობილი">
+					<xs:complexType>
+						<xs:sequence>
+							
+							<xs:element name="მწარმოებელი_MERSEDESI">
+								<xs:complexType>
+									<xs:sequence>
+									
+										<xs:element name="მოდელი_ML">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="კატეგორია" type="xs:string"/>
+													<xs:element name="წელი" type="xs:string"/>
+													<xs:element name="ძრავა" type="xs:string"/>
+													<xs:element name="საწვავი" type="xs:string"/>
+													<xs:element name="წამყვანი_თვლები" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="გარბენი" type="xs:integer"/>
+													<xs:element name="გადაცემათა_კოლოფი" type="xs:string"/>
+													<xs:element name="ფასი" type="xs:integer"/>
+													<xs:element name="კომენტარი" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>											
+										</xs:element>
+										
+										<xs:element name="მოდელი_GL">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="კატეგორია" type="xs:string"/>
+													<xs:element name="წელი" type="xs:string"/>
+													<xs:element name="ძრავა" type="xs:string"/>
+													<xs:element name="საწვავი" type="xs:string"/>
+													<xs:element name="წამყვანი_თვლები" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="გარბენი" type="xs:string"/>
+													<xs:element name="გადაცემათა_კოლოფი" type="xs:string"/>
+													<xs:element name="ფასი" type="xs:string"/>
+													<xs:element name="კომენტარი" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+					
+					
+							<xs:element name="მწარმოებელი_BMW">
+								<xs:complexType>
+									<xs:sequence>
+									
+										<xs:element name="მოდელი_M5">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="კატეგორია" type="xs:string"/>
+													<xs:element name="წელი" type="xs:string"/>
+													<xs:element name="ძრავა" type="xs:string"/>
+													<xs:element name="საწვავი" type="xs:string"/>
+													<xs:element name="წამყვანი_თვლები" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="გარბენი" type="xs:string"/>
+													<xs:element name="გადაცემათა_კოლოფი" type="xs:string"/>
+													<xs:element name="ფასი" type="xs:string"/>
+													<xs:element name="კომენტარი" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+										<xs:element name="მოდელი_M3">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="კატეგორია" type="xs:string"/>
+													<xs:element name="წელი" type="xs:string"/>
+													<xs:element name="ძრავა" type="xs:string"/>
+													<xs:element name="საწვავი" type="xs:string"/>
+													<xs:element name="წამყვანი_თვლები" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="გარბენი" type="xs:string"/>
+													<xs:element name="გადაცემათა_კოლოფი" type="xs:string"/>
+													<xs:element name="ფასი" type="xs:string"/>
+													<xs:element name="კომენტარი" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+						</xs:sequence>
+					</xs:complexType>						
+				</xs:element>
+					
+		
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	</xs:schema>
