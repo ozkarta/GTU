@@ -1,0 +1,79 @@
+<document
+	xmlns="http://www.w3.org/1999/xhtml">
+	<restorani>
+		<barakoni>
+			<produkcia>
+				<khinkali>
+					<naochi>21</naochi>
+					<fasi>0.99</fasi>
+					<wona ert="gr">145</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ki</tsitsaka>
+					<pomidori>ara</pomidori>
+					<xaxvi>ara</xaxvi>
+					<wona ert="gr">340</wona>
+					<fasi>8</fasi>
+				</shaurma>
+			</produkcia>
+		</barakoni>
+
+
+		<sazandari>
+			<produkcia>
+				<khinkali>
+					<naochi>32</naochi>
+					<fasi>1.49</fasi>
+					<wona ert="gr">243 +-17</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ara</tsitsaka>
+					<pomidori>ara</pomidori>
+					<xaxvi>ara</xaxvi>
+					<wona ert="gr">500</wona>
+					<fasi>10</fasi>
+				</shaurma>
+			</produkcia>
+		</sazandari>
+
+
+
+		<tavaduri>
+			<produkcia>
+				<khinkali>
+					<naochi>26</naochi>
+					<fasi>0.5</fasi>
+					<wona ert="gr">87</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ara</tsitsaka>
+					<pomidori>ki</pomidori>
+					<xaxvi>ki</xaxvi>
+					<wona ert="gr">780</wona>
+					<fasi>12</fasi>
+				</shaurma>
+			</produkcia>
+		</tavaduri>
+
+		<megrul_lazuri>
+			<produkcia>
+				<khinkali>
+					<naochi>12</naochi>
+					<fasi>0.2</fasi>
+					<wona ert="gr">50</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ki</tsitsaka>
+					<pomidori>ki</pomidori>
+					<xaxvi>ki</xaxvi>
+					<wona ert="gr">300</wona>
+					<fasi>5</fasi>
+				</shaurma>
+			</produkcia>
+		</megrul_lazuri>
+	</restorani>
+</document>

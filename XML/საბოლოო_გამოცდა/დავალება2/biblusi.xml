@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document
+	xmlns:v="varketili"
+	xmlns:g="gldani"
+	xmlns:s="saburtalo">
+
+
+	<v:store>
+		<office_inventory>
+			<pens>
+				<pen>
+					<color>Red</color>
+					<quantity>5</quantity>
+				</pen>
+				<pen>
+					<color>black</color>
+					<quantity>7</quantity>
+				</pen>
+				<pen>
+					<color>blue</color>
+					<quantity>20</quantity>
+				</pen>
+			</pens>
+			<notebook>
+
+			</notebook>
+
+
+		</office_inventory>
+	</v:store>
+
+	<g:store>
+		<books>
+			<reading>
+				<book>
+					<name>Pain Killer</name>
+					<author>Ronnie James Dio</author>
+					<quantity>26</quantity>
+				</book>
+			</reading>
+		<books/>
+	</g:store>
+
+	<s:store>
+		<books>
+			<educational>
+				<book>
+					<author>O .  Kartvelishvili</author>
+					<name>Rescue Patient</name>
+					<quantity>1</quantity>
+					<category>Medical</category>
+				</book>
+			</educational>
+		</books>
+	</s:store>
+
+
+</document>

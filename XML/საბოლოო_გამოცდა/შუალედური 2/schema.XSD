@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="laptops">
+		<xs:complexType>
+			<xs:sequence>
+							
+				<xs:element name="toshiba">
+					<xs:complexType>
+						<xs:sequence>
+							
+							<xs:element name="model" minOccurs="0" maxOccurs="5">
+								<xs:complexType>
+									<xs:sequence>
+										
+										<xs:element name="მოდელი" type="xs:string"/>
+										<xs:element name="ეკრანის_ტიპი" type="xs:string"/>
+										<xs:element name="პროცესორი" type="xs:string"/>
+										<xs:element name="მეხსიერება" type="xs:string"/>
+										<xs:element name="მყარი_დისკი" type="xs:string"/>
+										<xs:element name="გრაფიკული_პროცესორი" type="xs:string"/>
+										<xs:element name="ფერი" type="xs:string"/>
+										<xs:element name="მწარმოებელი_ქვეყანა" type="xs:string"/>
+										<xs:element name="ოპერაციული_სისტემა" type="xs:string"/>
+										<xs:element name="ფასი" type="xs:string"/>
+										<xs:element name="მდგომარეობა" type="xs:string"/>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+					
+					
+						</xs:sequence>
+					</xs:complexType>						
+				</xs:element>
+				
+				<xs:element name="microsoft">
+					<xs:complexType>
+						<xs:sequence>
+							
+							<xs:element name="model"  minOccurs="0" maxOccurs="5">
+								<xs:complexType>
+									<xs:sequence>
+										
+										<xs:element name="მოდელი" type="xs:string"/>
+										<xs:element name="ეკრანის_ტიპი" type="xs:string"/>
+										<xs:element name="პროცესორი" type="xs:string"/>
+										<xs:element name="მეხსიერება" type="xs:string"/>
+										<xs:element name="მყარი_დისკი" type="xs:string"/>
+										<xs:element name="გრაფიკული_პროცესორი" type="xs:string"/>
+										<xs:element name="ფერი" type="xs:string"/>
+										<xs:element name="მწარმოებელი_ქვეყანა" type="xs:string"/>
+										<xs:element name="ოპერაციული_სისტემა" type="xs:string"/>
+										<xs:element name="ფასი" type="xs:string"/>
+										<xs:element name="მდგომარეობა" type="xs:string"/>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+					
+					
+						</xs:sequence>
+					</xs:complexType>						
+				</xs:element>
+					
+		
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	</xs:schema>

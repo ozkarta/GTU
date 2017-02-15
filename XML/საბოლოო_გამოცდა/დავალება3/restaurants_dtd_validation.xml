@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document [
+<!ELEMENT document (restorani+)>
+<!ELEMENT restorani (barakoni+, sazandari+, tavaduri+, megrul_lazuri+)>
+<!ELEMENT barakoni (produkcia+)>
+<!ELEMENT sazandari (produkcia+)>
+<!ELEMENT tavaduri (produkcia+)>
+<!ELEMENT megrul_lazuri (produkcia+)>
+<!ELEMENT produkcia (khinkali+,shaurma+)>
+<!ELEMENT khinkali (naochi+,fasi+,wona+)>
+<!ELEMENT naochi (#PCDATA)>
+<!ELEMENT fasi (#PCDATA)>
+<!ELEMENT wona (#PCDATA)>
+<!ELEMENT shaurma (tsitsaka+,pomidori+,xaxvi+,wona+,fasi+)>
+<!ELEMENT tsitsaka (#PCDATA)>
+<!ELEMENT pomidori (#PCDATA)>
+<!ELEMENT xaxvi (#PCDATA)>
+
+
+]>
+<document>
+
+
+
+
+	<restorani>
+		<barakoni>
+			<produkcia>
+				<khinkali>
+					<naochi>21</naochi>
+					<fasi>0.99</fasi>
+					<wona >145</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ki</tsitsaka>
+					<pomidori>ara</pomidori>
+					<xaxvi>ara</xaxvi>
+					<wona >340</wona>
+					<fasi>8</fasi>
+				</shaurma>
+			</produkcia>
+		</barakoni>
+
+
+		<sazandari>
+			<produkcia>
+				<khinkali>
+					<naochi>32</naochi>
+					<fasi>1.49</fasi>
+					<wona >243 +-17</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ara</tsitsaka>
+					<pomidori>ara</pomidori>
+					<xaxvi>ara</xaxvi>
+					<wona >500</wona>
+					<fasi>10</fasi>
+				</shaurma>
+			</produkcia>
+		</sazandari>
+
+
+
+		<tavaduri>
+			<produkcia>
+				<khinkali>
+					<naochi>26</naochi>
+					<fasi>0.5</fasi>
+					<wona >87</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ara</tsitsaka>
+					<pomidori>ki</pomidori>
+					<xaxvi>ki</xaxvi>
+					<wona >780</wona>
+					<fasi>12</fasi>
+				</shaurma>
+			</produkcia>
+		</tavaduri>
+
+		<megrul_lazuri>
+			<produkcia>
+				<khinkali>
+					<naochi>12</naochi>
+					<fasi>0.2</fasi>
+					<wona >50</wona>
+				</khinkali>
+
+				<shaurma>
+					<tsitsaka>ki</tsitsaka>
+					<pomidori>ki</pomidori>
+					<xaxvi>ki</xaxvi>
+					<wona >300</wona>
+					<fasi>5</fasi>
+				</shaurma>
+			</produkcia>
+		</megrul_lazuri>
+	</restorani>
+</document>
