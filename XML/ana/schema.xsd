@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="technique_list">
+		<xs:complexType>
+			<xs:sequence>
+							
+				<xs:element name="mobile">
+					<xs:complexType>
+						<xs:sequence>
+						
+							<xs:element name="გალაქსი">
+								<xs:complexType>
+									<xs:sequence>
+									
+										<xs:element name="მოდელი_new">
+											<xs:complexType>
+												<xs:sequence>
+												
+													<xs:element name="ბრენდი" type="xs:string"/>
+													<xs:element name="სახელი" type="xs:integer"/>
+													<xs:element name="გამოშვების_წელი" type="xs:integer"/>
+													<xs:element name="ეკრანის_ზომა" type="xs:string"/>
+													<xs:element name="პროცესორის_მოდელი" type="xs:string"/>
+													<xs:element name="ჯიპიესი" type="xs:string"/>
+													<xs:element name="რადიო" type="xs:string"/>
+													<xs:element name="ბატარეის_ტიპი" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="წონა" type="xs:integer"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+										<xs:element name="მოდელი_old">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ბრენდი" type="xs:string"/>
+													<xs:element name="სახელი" type="xs:integer"/>
+													<xs:element name="გამოშვების_წელი" type="xs:integer"/>
+													<xs:element name="ეკრანის_ზომა" type="xs:string"/>
+													<xs:element name="პროცესორის_მოდელი" type="xs:string"/>
+													<xs:element name="ჯიპიესი" type="xs:string"/>
+													<xs:element name="რადიო" type="xs:string"/>
+													<xs:element name="ბატარეის_ტიპი" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="წონა" type="xs:integer"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						
+							<xs:element name="აიფონი">
+								<xs:complexType>
+									<xs:sequence>
+									
+										<xs:element name="მოდელი_available">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ბრენდი" type="xs:string"/>
+													<xs:element name="სახელი" type="xs:integer"/>
+													<xs:element name="გამოშვების_წელი" type="xs:integer"/>
+													<xs:element name="ეკრანის_ზომა" type="xs:string"/>
+													<xs:element name="პროცესორის_მოდელი" type="xs:string"/>
+													<xs:element name="ჯიპიესი" type="xs:string"/>
+													<xs:element name="რადიო" type="xs:string"/>
+													<xs:element name="ბატარეის_ტიპი" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="წონა" type="xs:integer"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+										<xs:element name="მოდელი_notavailable">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ბრენდი" type="xs:string"/>
+													<xs:element name="სახელი" type="xs:integer"/>
+													<xs:element name="გამოშვების_წელი" type="xs:integer"/>
+													<xs:element name="ეკრანის_ზომა" type="xs:string"/>
+													<xs:element name="პროცესორის_მოდელი" type="xs:string"/>
+													<xs:element name="ჯიპიესი" type="xs:string"/>
+													<xs:element name="რადიო" type="xs:string"/>
+													<xs:element name="ბატარეის_ტიპი" type="xs:string"/>
+													<xs:element name="ფერი" type="xs:string"/>
+													<xs:element name="წონა" type="xs:integer"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+						</xs:sequence>
+					</xs:complexType>	
+				</xs:element>
+					
+		
+			</xs:sequence>
+		</xs:complexType>
+
+		
+	</xs:element>
+</xs:schema>
