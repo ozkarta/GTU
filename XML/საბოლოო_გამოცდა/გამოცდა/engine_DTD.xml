@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE engines[
+	<!ELEMENT engines (bmw)>
+	<!ELEMENT bmw (straight_6, V8_style)>
+	<!ELEMENT straight_6 (engine*)>
+	<!ELEMENT V8_style (engine*)>
+	<!ELEMENT engine (model, displacement, power, redline, bore, stroke, compression_ratio)>
+	
+	<!ELEMENT model (#PCDATA)>
+	<!ELEMENT displacement (#PCDATA)>
+	<!ELEMENT power (#PCDATA)>
+	<!ELEMENT redline (#PCDATA)>
+	<!ELEMENT bore (#PCDATA)>
+	<!ELEMENT stroke (#PCDATA)>
+	<!ELEMENT compression_ratio (#PCDATA)>
+] 
+
+>
+
+<engines>
+	<bmw>
+		<straight_6>
+			<engine>
+				<model>M50b20</model>
+				<displacement>1.991</displacement>
+				<power>110kw (148 bhp)</power>
+				<redline>6500</redline>
+				<bore>80mm</bore>
+				<stroke>66mm</stroke>
+				<compression_ratio>10.5</compression_ratio>
+			</engine>
+			
+						
+			<engine>
+				<model>M50b25TU</model>
+				<displacement>2.494</displacement>
+				<power>141kw (189 bhp)</power>
+				<redline>6500</redline>
+				<bore>84mm</bore>
+				<stroke>75mm</stroke>
+				<compression_ratio>10.5</compression_ratio>
+			</engine>
+		</straight_6>
+		
+		<V8_style>
+			<engine>
+				<model>M62TUb35</model>
+				<displacement>3.498</displacement>
+				<power>180kw (240 ps)</power>
+				<redline>6200</redline>
+				<bore>84mm</bore>
+				<stroke>78.9mm</stroke>
+				<compression_ratio>10</compression_ratio>
+			</engine>
+			
+			<engine>
+				<model>M62bTUb44</model>
+				<displacement>4.398</displacement>
+				<power>218kw (296 ps)</power>
+				<redline>6500</redline>
+				<bore>92mm</bore>
+				<stroke>82.7mm</stroke>
+				<compression_ratio>10</compression_ratio>
+			</engine>
+		</V8_style>
+	</bmw>
+ </engines>
