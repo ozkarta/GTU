@@ -1,0 +1,10 @@
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\bin\Debug\gtu_task1.exe.config
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\bin\Debug\gtu_task1.exe
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\bin\Debug\gtu_task1.pdb
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\bin\Debug\gtu_task1.xml
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\obj\Debug\gtu_task1.vbprojResolveAssemblyReference.cache
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\obj\Debug\gtu_task1.Resources.resources
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\obj\Debug\gtu_task1.vbproj.GenerateResource.Cache
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\obj\Debug\gtu_task1.exe
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\obj\Debug\gtu_task1.xml
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\gtu_task1\gtu_task1\obj\Debug\gtu_task1.pdb
