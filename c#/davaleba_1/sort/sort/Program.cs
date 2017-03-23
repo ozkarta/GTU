@@ -23,14 +23,32 @@ namespace sort
             arr[8] = 3;
             arr[9] = 13;
 
-            sortTRIAL(arr);
+            //sortTRIAL(arr);
+            sort(arr);
 
+            for(int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
 
 
             Console.ReadKey();
 
         }
-
+        public static void sort(int[] arr)
+        {
+            int swap;
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i] < arr[i - 1])
+                {
+                    swap = arr[i];
+                    arr[i] = arr[i - 1];
+                    arr[i - 1] = swap;
+                    sort(arr);
+                }
+            }
+        }
         public static void sortTRIAL(int[] arr)
         {
             int?[] staging = new int?[arr.Length];
