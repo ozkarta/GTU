@@ -1,0 +1,6 @@
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\sort\sort\bin\Debug\sort.exe.config
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\sort\sort\bin\Debug\sort.exe
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\sort\sort\bin\Debug\sort.pdb
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\sort\sort\obj\Debug\sort.csprojResolveAssemblyReference.cache
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\sort\sort\obj\Debug\sort.exe
+c:\users\ozkart-win-7\documents\visual studio 2015\Projects\sort\sort\obj\Debug\sort.pdb
